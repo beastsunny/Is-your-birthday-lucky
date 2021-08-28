@@ -1,0 +1,26 @@
+        #a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100%;
+        }
+        
+        h2 {
+            text-align: center;
+            padding: 0.5rem;
+        }
+        
+        #container {
+            width: 45%;
+            height: 45%;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+        }
+        
+        #check-now {
+            margin: auto;
+            border-radius: 1rem;
+            padding: 0.3rem 0.3rems;
+        }
