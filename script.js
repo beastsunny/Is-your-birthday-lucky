@@ -3,10 +3,18 @@ const luckyNumber = document.querySelector("#lucky-number");
 const checkNumberButton = document.querySelector("#check-now");
 
 
+
+
+function compareValues(sum, luckyNumber) {
+    if (sum % luckyNumber === 0) {
+        console.log("Your Birthday Is Lucky");
+    }
+}
+
 function checkBirthDateIsLucky() {
     const dob = dateOfBirth.value;
     const sum = calculateSum(dob);
-    console.log(sum);
+    compareValues(sum, luckyNumber.value)
 }
 
 
