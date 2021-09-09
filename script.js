@@ -28,21 +28,12 @@ function calculateSum(dob) {
     dob = dob.replaceAll("-", "");
     console.log(dob);
     let sum = 0;
-    console.log(dob.length);
     for (let i = 0; i < dob.length; i++) {
         sum = sum + Number(dob.charAt(i));
     }
     return sum;
 
 }
-
-
-
-
-
-
-
-
 
 
 checkNumberButton.addEventListener('click', checkBirthDateIsLucky)
