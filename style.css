@@ -1,97 +1,97 @@
-                                                                                                 :root {
-                                                                                                    --primary-white: rgb(245, 222, 179);
-                                                                                                }
-                                                                                                
-                                                                                                body {
-                                                                                                    background-image: url(image/tuva-mathilde-loland-4rfVL3NNGrA-unsplash.jpg);
-                                                                                                    background-repeat: no-repeat;
-                                                                                                    background-size: cover, contain;
-                                                                                                }
-                                                                                                
-                                                                                                body #a {
-                                                                                                    display: flex;
-                                                                                                    justify-content: center;
-                                                                                                    align-items: center;
-                                                                                                    height: 100vh;
-                                                                                                    width: 100%;
-                                                                                                }
-                                                                                                
-                                                                                                h2 {
-                                                                                                    text-align: center;
-                                                                                                    padding: 0.5rem;
-                                                                                                }
-                                                                                                
-                                                                                                label {
-                                                                                                    font-size: x-large;
-                                                                                                    font-weight: 800;
-                                                                                                    color: rgb(241, 71, 71);
-                                                                                                    text-align: center;
-                                                                                                }
-                                                                                                
-                                                                                                #date-of-birth {
-                                                                                                    margin-top: 2vh;
-                                                                                                    margin-bottom: 2vh;
-                                                                                                }
-                                                                                                
-                                                                                                #lucky-number {
-                                                                                                    margin-top: 2vh;
-                                                                                                    margin-bottom: 2vh;
-                                                                                                }
-                                                                                                
-                                                                                                #container {
-                                                                                                    width: 45%;
-                                                                                                    height: 45%;
-                                                                                                    display: flex;
-                                                                                                    justify-content: space-around;
-                                                                                                    flex-direction: column;
-                                                                                                    color: var(--primary-white)
-                                                                                                }
-                                                                                                
-                                                                                                #check-now {
-                                                                                                    margin: auto;
-                                                                                                    border-radius: 1rem;
-                                                                                                    padding: 0.4rem 0.4rem;
-                                                                                                    cursor: pointer;
-                                                                                                    color: black;
-                                                                                                }
-                                                                                                
-                                                                                                p {
-                                                                                                    text-align: center;
-                                                                                                    border-radius: 0.5rem;
-                                                                                                    font-size: larger;
-                                                                                                    font-weight: 800;
-                                                                                                }
-                                                                                                
-                                                                                                footer {
-                                                                                                    text-align: center;
-                                                                                                    padding: 2rem 1rem;
-                                                                                                    width: 100%;
-                                                                                                }
-                                                                                                
-                                                                                                .footer-header {
-                                                                                                    font-weight: bold;
-                                                                                                    font-size: x-large;
-                                                                                                    margin-bottom: 1rem;
-                                                                                                    color: white;
-                                                                                                }
-                                                                                                
-                                                                                                ul {
-                                                                                                    padding-top: 1rem;
-                                                                                                    margin: 0.4rem;
-                                                                                                    padding-inline-start: 0px;
-                                                                                                }
-                                                                                                
-                                                                                                li {
-                                                                                                    display: inline;
-                                                                                                    padding: 0rem 1rem;
-                                                                                                }
-                                                                                                
-                                                                                                a {
-                                                                                                    color: grey;
-                                                                                                    font-size: 2rem;
-                                                                                                    margin: 0.3rem;
-                                                                                                }
-                                                                                                
-                                                                                                a:hover {
-                                                                                                    color: white;
-                                                                                                }
+                                                                                                               :root {
+                                                                                                                  --primary-white: rgb(245, 222, 179);
+                                                                                                              }
+                                                                                                              
+                                                                                                              body {
+                                                                                                                  background-image: url(image/tuva-mathilde-loland-4rfVL3NNGrA-unsplash.jpg);
+                                                                                                                  background-repeat: no-repeat;
+                                                                                                                  background-size: cover, contain;
+                                                                                                              }
+                                                                                                              
+                                                                                                              body #a {
+                                                                                                                  display: flex;
+                                                                                                                  justify-content: center;
+                                                                                                                  align-items: center;
+                                                                                                                  height: 150vh;
+                                                                                                                  width: 100%;
+                                                                                                              }
+                                                                                                              
+                                                                                                              h1 {
+                                                                                                                  text-align: center;
+                                                                                                                  padding: 0.5rem;
+                                                                                                              }
+                                                                                                              
+                                                                                                              label {
+                                                                                                                  font-size: x-large;
+                                                                                                                  font-weight: 800;
+                                                                                                                  color: var(--primary-white);
+                                                                                                                  text-align: center;
+                                                                                                              }
+                                                                                                              
+                                                                                                              #date-of-birth {
+                                                                                                                  margin-top: 2vh;
+                                                                                                                  margin-bottom: 2vh;
+                                                                                                              }
+                                                                                                              
+                                                                                                              #lucky-number {
+                                                                                                                  margin-top: 2vh;
+                                                                                                                  margin-bottom: 2vh;
+                                                                                                              }
+                                                                                                              
+                                                                                                              #container {
+                                                                                                                  width: 45%;
+                                                                                                                  height: 45%;
+                                                                                                                  display: flex;
+                                                                                                                  justify-content: space-around;
+                                                                                                                  flex-direction: column;
+                                                                                                                  color: var(--primary-white)
+                                                                                                              }
+                                                                                                              
+                                                                                                              #check-now {
+                                                                                                                  margin: auto;
+                                                                                                                  border-radius: 1rem;
+                                                                                                                  padding: 0.4rem 0.4rem;
+                                                                                                                  cursor: pointer;
+                                                                                                                  color: black;
+                                                                                                              }
+                                                                                                              
+                                                                                                              p {
+                                                                                                                  text-align: center;
+                                                                                                                  border-radius: 0.5rem;
+                                                                                                                  font-size: larger;
+                                                                                                                  font-weight: 800;
+                                                                                                              }
+                                                                                                              
+                                                                                                              footer {
+                                                                                                                  text-align: center;
+                                                                                                                  padding: 2rem 1rem;
+                                                                                                                  width: 100%;
+                                                                                                              }
+                                                                                                              
+                                                                                                              .footer-header {
+                                                                                                                  font-weight: bold;
+                                                                                                                  font-size: x-large;
+                                                                                                                  margin-bottom: 1rem;
+                                                                                                                  color: white;
+                                                                                                              }
+                                                                                                              
+                                                                                                              ul {
+                                                                                                                  padding-top: 1rem;
+                                                                                                                  margin: 0.4rem;
+                                                                                                                  padding-inline-start: 0px;
+                                                                                                              }
+                                                                                                              
+                                                                                                              li {
+                                                                                                                  display: inline;
+                                                                                                                  padding: 0rem 1rem;
+                                                                                                              }
+                                                                                                              
+                                                                                                              a {
+                                                                                                                  color: grey;
+                                                                                                                  font-size: 2rem;
+                                                                                                                  margin: 0.3rem;
+                                                                                                              }
+                                                                                                              
+                                                                                                              a:hover {
+                                                                                                                  color: white;
+                                                                                                              }
